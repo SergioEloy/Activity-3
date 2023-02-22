@@ -1,0 +1,45 @@
+body{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hd {
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    padding: 4%;
+}
+
+.logo {
+    height: 200px;
+    text-align: left;
+    float: left;
+}
+.vitInf{
+    width: 85%;
+    text-align: center;
+    border: none;
+    
+}
+#nm , #ph, #ml {
+    margin: 5px
+}
+
+.qst, .carr, .fb, .txt{
+    text-align: center;
+    width: 85%;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+
+}
+
+.si {
+text-align: right;
+width: 85%;
+border: none;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Contact us!</title>
+  </head>
+  <body>
+    <div class="hd">
+      <figure>
+        <img src="pngwing.com.png" alt="UVM logo" class="logo" />
+      </figure>
+      <div class="header">
+        <h1>Join us!</h1>
+        <p>Leave your information here and soon we will be in touch</p>
+      </div>
+    </div>
+    <form class="ctcfrm">
+      <fieldset class="vitInf">
+        <label for="name">Full name:</label>
+        <input type="text" name="name" id="nm" placeholder="Your name is" />
+        <br />
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          name="phone"
+          maxlength="10"
+          id="ph"
+          placeholder="My phone number is"
+        />
+        <br />
+        <label for="email">E-mail:</label>
+        <input type="email" name="mail" id="ml" placeholder="Your E-mail is" />
+        <br />
+      </fieldset>
+      <fieldset class="qst">
+        <p>Which is the best way to contact you?</p>
+        <input type="radio" value="E-mail" id="email" name="phma" />
+        <label for="email">E-mail</label>
+        <input type="radio" value="Phone" id="phone" name="phma" />
+        <label for="phone">Phone</label>
+      </fieldset>
+      <fieldset class="carr">
+        <p>Carrer of your choice</p>
+        <select name="carrer" id="carrer">
+          <option value="Gastronomy">Gastronomy</option>
+          <option value="MBA">MBA</option>
+          <option value="Civil Engineering">Civil Engineering</option>
+          <option value="Software">Software</option>
+        </select>
+      </fieldset>
+
+      <fieldset class="txt">
+        <label for="txta">Comments</label>
+        <br />
+        <textarea id="txta"> </textarea>
+      </fieldset>
+      <fieldset class="fb">
+        <p>I want to take another survey for the posibility of a scholarship</p>
+        <input type="checkbox" name="yn" id="y" checked="true" />
+        <label for="y">Yes, I want a Schoolarship</label>
+        <br />
+      </fieldset>
+      <fieldset class="si">
+        <input
+          type="submit"
+          name="sb"
+          id="sb"
+          value="Send information"
+          action="#"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
