@@ -16,6 +16,15 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: left;
     float: left;
 }
+
+form{    
+    text-align: center;
+    border: black 2px solid;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 2px;
+}
+
 .vitInf{
     width: 85%;
     text-align: center;
@@ -39,7 +48,7 @@ textarea {
 }
 
 .si {
-text-align: right;
+text-align: center;
 width: 85%;
 border: none;
 }
